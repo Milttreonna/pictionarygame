@@ -151,7 +151,7 @@ var image4 = document.getElementById("puzzimage4")
 var showLives = document.getElementById("mylives");
    comments = function () {
     showLives.innerHTML = "You have " + lives + " more tries.";
-    if (lives < 1) {
+    if (lives < 0) {
       showLives.innerHTML = "Game Over";
     }
     for (var i = 0; i < guesses.length; i++) {
@@ -188,7 +188,9 @@ var showLives = document.getElementById("mylives");
         ["pretty little liars"], ["south park"], ["spongebob squarepants"], ["the walking dead"], ["tom and jerry"]
     ];
     thepuzzle = puzzlename[Math.floor(Math.random() * puzzlename.length)];
+
     word = thepuzzle[Math.floor(Math.random() * thepuzzle.length)];
+
     word = word.replace(/\s/g, "-");
     console.log(word);
     buttons();
