@@ -1,10 +1,4 @@
 
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: font-family:"Lucida Console", Monaco, monospace;;
   -webkit-text-size-adjust: 100%;
@@ -22,7 +16,7 @@ h1 {color: pink}
 .player1 {color: #660066; border-style: solid; border-color: #660066; background-color: #ff99ff; font-family:"Lucida Console", Monaco, monospace;}
 .player2 {color: #4d0000; border-style: solid; border-color: #4d0000; background-color: #ff8080; font-family:"Lucida Console", Monaco, monospace;}
 
-body { font-family: courier; background-image: url("http://www.1wallpaperhd.com/wp-content/uploads/Colorful/FTP1/2560x1440/Light%20color%20purple%20wallpaper%202560x1440.jpg"); background-size: 1800px 800px;
+body { font-family: courier; background-size: 1800px 800px;
     background-repeat: no-repeat; }
 
 article,
@@ -200,7 +194,7 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+
 @media print {
   *,
   *:before,
@@ -6767,7 +6761,7 @@ button.close {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+
 
 
 
@@ -6899,9 +6893,3 @@ buttons{
   padding:0 0 0 25px;
 }
   }
-
-* {
-  /*border-width: thin;
-  border-color: black;
-  border-style: dashed;*/
-}
